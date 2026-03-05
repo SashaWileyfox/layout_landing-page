@@ -23,7 +23,7 @@
     transition: transform 0.5s ease;
 
     &:hover {
-      transform: scale(1.05);
+     @include hover(transform, scale(1.05));
     }
 
     &--wide {
