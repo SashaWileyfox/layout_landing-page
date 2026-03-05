@@ -36,9 +36,11 @@
     background-image: url(../icons/icon-phone.svg);
     position: relative;
 
-    &:hover .icon__contact-number {
+    @include on-desktop {
+      &:hover .icon__contact-number {
       opacity: 1;
       visibility: visible;
+    }
     }
   }
 
